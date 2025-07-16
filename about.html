@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>streaming</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenue sur la page a propos !</h1>
+    
+
+    
+    <button class="glow-on-hover"  id="themeToggle">Thème clair</button>
+  </div>
+
+  <ul>
+    <li><a href="serie.html" data-title="serie">serie</a></li>
+    <li><a href="film.html" data-title="film">film</a></li>
+    <li><a href="index.html" data-title="home">home</a></li>
+  </ul>
+  <p>createur : code_breaker<br>
+    les film vienne du telegram de sylvermad (tiktok) 
+    <br>pour me contacter ajouter moi discord : code_breaker0<br>
+  </p>
+    <button class="glow-on-hover" id="btnTelegram">cliquer ici pour rejoindre le telegram</button>
+    
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("btnTelegram").addEventListener("click", function() {
+      window.open("https://t.me/+PJsuYKJtBvc3Mjk8", "_blank");
+    });
+  </script>
+</body>
+</html>
